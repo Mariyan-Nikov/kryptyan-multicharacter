@@ -9,19 +9,6 @@ Multi Character Feature for QBCore Multicharacter And inspired by NoPixel 4.0.
 - Ability To See Character Information During Selection.
 - Ability To Customise Your Character Slot At [config.lua](https://github.com/P4ScriptsFivem/pappu-multicharacter/blob/main/config.lua).
 
-## Features
-If You Use [qb-houses](https://github.com/qbcore-framework/qb-houses)
-Go To Line 324 in Server/main.lua [here](https://github.com/qbcore-framework/qb-houses/blob/main/server/main.lua)
-
-Remove This 
-```
-    TriggerClientEvent('qb-multicharacter:client:chooseChar', src)
-```
-Add This  
-```
-    TriggerClientEvent('pappu-multicharacter:client:chooseChar', src)
-```
-
 ## Installation
 ### Manual
 - Download the script and put it in the `[qb]` directory.
@@ -29,7 +16,7 @@ Add This
 
 ```
 ensure qb-core
-ensure pappu-multicharacter
+ensure qb-multicharacter
 ensure qb-spawn
 ensure qb-apartments
 ensure qb-clothing
